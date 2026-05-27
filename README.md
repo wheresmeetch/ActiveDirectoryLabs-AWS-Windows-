@@ -1,7 +1,7 @@
 # ActiveDirectory
 ## Overview
 
-This repository documents a series of hands-on labs that focus on creating, managing, and expanding  Active Directory in a AWS EC2 isntance environment.
+This repository documents a series of hands-on labs that focus on creating, managing, and expanding  Active Directory in a Microsoft Azure (MS AZ) environment.
 
 In a buisness world where cloud platforms are steadily becoming more and more common, traditional Active Directory Domain Services (AD DS) remain a foundational component in many buisness environments. These set of labs are designed to mirror real-world IT operations, starting with a minimal domain framework and progressively becoming more complex with administrative, security, and hybrid aspects layered on top.
 
@@ -9,7 +9,7 @@ In a buisness world where cloud platforms are steadily becoming more and more co
 
 By completing these labs, the following skills are demonstrated:
 
-- Deployment of Windows Server–based Active Directory in an AWS EC2 instance
+- Deployment of Windows Server–based Active Directory in a MS AZ environment
 
 - Identity and access management using AD DS
 
