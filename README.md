@@ -9,19 +9,19 @@ In a buisness world where cloud platforms are steadily becoming more and more co
 
 By completing these labs, the following skills are demonstrated:
 
-- Deployment of Windows Server–based Active Directory in Azure
+- Deployment of Windows Server–based Active Directory in an AWS EC2 instance
 
-- Core identity and access management using AD DS
+- Identity and access management using AD DS
 
 - Organizational unit (OU) design and group-based access control
 
-- Group Policy creation and enforcement
+- User group based Policy implementation
 
 - Domain-joined client configuration and validation
 
 - Hybrid identity integration with Azure Entra ID
 
-- Practical troubleshooting and validation techniques used in enterprise IT environments
+- Practical troubleshooting and validation techniques modeling buisness IT environments via ticketing system
 
 ## Lab Breakdown
 
