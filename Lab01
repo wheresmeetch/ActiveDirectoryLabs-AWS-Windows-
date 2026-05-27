@@ -1,5 +1,1 @@
-# Lab 01: Active Directory Domain Controller Setup (AWS)
 
-### Objective
-
-The objective of this lab is to create and configure a Windows-based Active Directory Domain Controller in AWS. This domain controller will serve as the foundation of our test environment and subsequently serve as the framework of our future labs in this repository.
