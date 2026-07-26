@@ -30,7 +30,7 @@ Name:
 Creating the virtual network to mirror a work environment
 
 Configuration setting:
-- VNet: ad-labs-netowrk
+- VNet: domain-controller-vnet
 - address space: 10.0.0.0/16
 -Subnet: subnet-ad
 - Subnet range: 10.0.0.0/24
