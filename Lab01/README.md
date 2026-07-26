@@ -1,6 +1,6 @@
 # Lab 01: Active Directory Domain Controller Setup
 
-### Objective
+## Objective
 
 The objective of this lab is to create and configure a Windows Server–based Active Directory Domain Controller in MS Azure. This domain controller will establish the framework for our test environment and serve as the foundation for subsequent Active Directory labs in this repository.
 
@@ -22,8 +22,7 @@ Create a dedicated resource group to isolate all Active Directory lab resources.
 
 Name:
 - active-directory-labs
-
-![Alt text of the image](https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/create%20rg.png)
+<img width="520" height="290" alt="Resource Group image" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/create%20rg.png" />
 
 
 ## Step 2: Create Virtual Network and Subnet
@@ -31,9 +30,20 @@ Name:
 Creating the virtual network to mirror a work environment
 
 Configuration setting:
--VNet: vnet-ad-labs
--Address space: 10.0.0.0/16
+- VNet: ad-labs-netowrk
+- address space: 10.0.0.0/16
 -Subnet: subnet-ad
--Subnet range: 10.0.0.0/24
+- Subnet range: 10.0.0.0/24
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/create%20vn%20and%20subnet.png" />
+
+## Step 2: Luanch Windows Server Virtual Machine
+
+Configure a windows 2022 server to be promoted to a domain controller 
+Configurations:
+- Virtual Machine name: domain-controller
+- Image: Windows Server 2022 Datacenter
+- Size: small D sized VM
+- Public IP: enabled
+- Virtual Network: domain-controller-vnet
 
 
