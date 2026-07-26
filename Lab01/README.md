@@ -16,9 +16,24 @@ This lab highlights networking configuration, Active Directory Domain Services i
 - **Administrator Account:** `corp\dc-admin`  
 - **Networking:** Azure Virtual Network with static private IP  
 
-### Step 1: Create Resource Group
+## Step 1: Create Resource Group
 
 Create a dedicated resource group to isolate all Active Directory lab resources.
 
 Name:
-- rg-active-directory-labs
+- active-directory-labs
+
+![Alt text of the image](https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/create%20rg.png)
+
+
+## Step 2: Create Virtual Network and Subnet
+
+Creating the virtual network to mirror a work environment
+
+Configuration setting:
+-VNet: vnet-ad-labs
+-Address space: 10.0.0.0/16
+-Subnet: subnet-ad
+-Subnet range: 10.0.0.0/24
+
+
