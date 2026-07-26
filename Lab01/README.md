@@ -34,7 +34,7 @@ Configuration setting:
 - address space: 10.0.0.0/16
 -Subnet: subnet-ad
 - Subnet range: 10.0.0.0/24
-<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/create%20vn%20and%20subnet.png" />
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/Screenshot%202026-06-01%20001852.png" />
 
 ## Step 2: Luanch Windows Server Virtual Machine
 
@@ -45,5 +45,8 @@ Configurations:
 - Size: small D sized VM
 - Public IP: enabled
 - Virtual Network: domain-controller-vnet
+- subnet: ad-subnet
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn1.png" />
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn1.png" />
 
 
