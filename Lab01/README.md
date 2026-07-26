@@ -47,6 +47,6 @@ Configurations:
 - Virtual Network: domain-controller-vnet
 - subnet: ad-subnet
 <img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn1.png" />
-<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn1.png" />
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn2.png" />
 
 
