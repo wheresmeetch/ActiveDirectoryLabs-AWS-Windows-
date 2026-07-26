@@ -36,17 +36,28 @@ Configuration setting:
 - Subnet range: 10.0.0.0/24
 <img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/Screenshot%202026-06-01%20001852.png" />
 
-## Step 2: Luanch Windows Server Virtual Machine
+## Step 3: Luanch Windows Server Virtual Machine
 
 Configure a windows 2022 server to be promoted to a domain controller 
 Configurations:
 - Virtual Machine name: domain-controller
 - Image: Windows Server 2022 Datacenter
 - Size: small D sized VM
-- Public IP: enabled
+- Public IP: enabled(easier RDP locating and accessing)
 - Virtual Network: domain-controller-vnet
 - subnet: ad-subnet
 <img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn1.png" />
 <img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/vn2.png" />
+
+## Step 4:Configure Static Private IP
+
+A stable IP provides Active Directory DNS stability:
+- Enter VM's network configurations
+- Change the private IP assignment from Dynamic to Static
+<img width="520" height="290" alt="Virtual Network and Subnet" src="https://github.com/wheresmeetch/ActiveDirectoryLabs-MS-Azure-/blob/main/Lab01/screenshots/IP.png" />
+
+
+
+
 
 
